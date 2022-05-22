@@ -27,3 +27,19 @@ document.write(Almighty());
  alert(Algebra() );
  console.log( Algebra ());
  document.write( Algebra ());
+
+
+  //function Algebra equation
+
+ let A = 2;
+   let B = 3;
+  let C = 6;
+  let D = 4;
+
+   function Algebra (eqution){
+      return (((A*C)+(B*D))/(C**2 + D**2))+((B*C)-(A*D))/(C**2 + D**2)
+   }
+
+  alert(Algebra());
+   console.log(Algebra());
+   document.write(Algebra())
