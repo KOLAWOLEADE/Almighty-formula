@@ -13,3 +13,17 @@ function Almighty(){
 alert(Almighty());
 console.log(Almighty());
 document.write(Almighty());
+
+
+ // Algebra function 1
+
+ let y = 3
+
+ function Algebra(){
+     return ( y**2 - 32)**2/ Math.sqrt(4/3)
+
+ }
+
+ alert(Algebra() );
+ console.log( Algebra ());
+ document.write( Algebra ());
